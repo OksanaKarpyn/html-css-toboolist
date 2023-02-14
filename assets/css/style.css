@@ -1,34 +1,128 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    font-family: 'Inter', sans-serif;
 }
 
 li{
     list-style-type: none;
+    padding: 10px;
 }
 
 h1{
-display: inline-block;
+    display: inline-block;
+    font-size: 40px;   
 }
 
-.head{}
+.triangolo{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 10px;
+}
 
 .logo{
-    padding: 20px;
-    vertical-align:midle;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    
 }
 
 .container-generale{
- background-color: darkgrey;
+ background-color:#f6f8f9;
+ max-width: 100%;
 }
 
-.list{}
+.container{
+    width: 70%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin: auto;
+}
 
-.section{}
+.nav{
+    margin-bottom: 5px;
+    padding: 20px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    background-color: #fff;
+    
+}
 
-.title{}
+.bord{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
 
-.conferma{}
+.bg-blue{
+    border: #47adf1;
+    background-color:#47adf1;
+    color: #fff;
+    margin-right: 5px;
+}
 
-.nega{}
+.col-gray{
+    color: lightgray;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+}
+
+.section{
+padding: 5px 20px;
+background-color: #fff;
+}
+
+.croce{
+   display: inline-block;
+   border-radius: 50%; 
+   border: 1px solid #eb635c;
+   color: #eb635c;
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+   text-align: center;
+   margin-right: 10px;
+}
+.done{
+    display: inline-block;
+        border-radius: 50%;
+        border: 1px solid #5abba2;
+        color: #5abba2;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 10px;
+        margin-right: 10px;
+}
+
+.viola, .verde, .orange, .rosa, .lime,.blue{
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+}
+.blue {
+    background-color: #47adf1;
+
+}
+
+.viola{
+    background-color: #9c72e4;
+}
+
+.verde{
+    background-color: #64c0a9;
+}
+.orange{
+    background-color: #f29e33;
+}
+
+.rosa{
+    background-color: #d863a1
+}
+
+.lime{
+    background-color: #afc825;
+}

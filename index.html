@@ -6,66 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <title>html-css-toboolist</title>
 </head>
 <body>
    <header>
     <div class="head">
-        <img class="logo" src="./assets/img/Logo.png" alt="logo" width="70px">
+        <div class="logo">
+            <img class="img" src="./assets/img/logo copia.png" alt="logo" width="80px">
+        </div>
         <h1>Toboolist</h1>
     </div>
    </header> 
    <div class="container-generale">
-    <main class="">
+    <main class="container">
         <section>
             <!-- barra-di-navigazioni -->
             <nav>
-                <button class="bg-blue">Add Task</button>
-                <button class="bg-blue">Add Section</button>
+                <div class="nav">
+                    <button class="bord bg-blue">Add Task</button>
+                    <button class="bord col-gray">Add Section</button>
+                </div>
     
             </nav>
         </section>
-        <section>
+        <section class="">
             <!-- lista -->
             <div class="list section">
                 <ul>
-                    <li class="list-title"><h2>New Task</h2>
+                    <li class="list-title"><h2><span class="triangolo">&#9660</span>New Task</h2>
                         <ul>
-                            <li class="conferma">Quarterly Newsletter</li>
+                            <li><span class="done">&#10004;</span>Quarterly Newsletter<span class="blue">Editorial</span></li>
                         </ul>
                     </li>
                 </ul>
             </div>
             <div class="list section">
                 <ul>
-                    <li class="list-title"><h2>Today</h2>
+                    <li class="list-title"><h2><span class="triangolo">&#9660</span>Today</h2>
                         <ul>
-                            <li class="conferma">Recruiting blog post</li>
-                            <li class="conferma">Mobile app luaunch</li>
-                            <li class="nega">Interview John H.</li>
-                            <li class="conferma">Summit update to mobiile storefronts</li>
+                            <li><span class="done">&#10004;</span>Recruiting blog post <span class="blue">Editorial</span></li>
+                            <li><span class="done">&#10004;</span>Mobile app luaunch <span class="viola">Q1 Goals</span></li>
+                            <li><span class="croce">&times;</span>Interview John H.<span class="verde">Recruiting</span></li>
+                            <li><span class="done">&#10004;</span>Summit update to mobiile storefronts <span class="orange">Mobile</span></li>
                         </ul>
                     </li>
                 </ul>
             </div>
             <div class="list section">
                 <ul>
-                    <li class="list-title"><h2>Upcoming</h2>
+                    <li class="list-title"><h2><span class="triangolo">&#9660</span>Upcoming</h2>
                         <ul>
-                            <li class="nega">Schedule meeting with Alex</li>
-                            <li class="conferma">Homepage refresh</li>
-                            <li class="conferma">Onboard new Sales team members</li>
-                            <li class="conferma">Review editorial calendar</li>
+                            <li><span class="croce">&times;</span>Schedule meeting with Alex</li>
+                            <li><span class="done">&#10004;</span>Homepage refresh <span class="rosa">Website</span></li>
+                            <li><span class="done">&#10004;</span>Onboard new Sales team members <span class="lime">Sales</span></li>
+                            <li><span class="done">&#10004;</span>Review editorial calendar <span class="blue">Editorial</span</li>
                         </ul>
                     </li>
                 </ul>
             </div>
-
         </section>
     </main>
-
    </div>
-
-    
 </body>
 </html>
