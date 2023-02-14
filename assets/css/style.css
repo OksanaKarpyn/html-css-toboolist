@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 
+li{
+    list-style-type: none;
+}
+
+h1{
+display: inline-block;
+}
+
 .head{}
 
-.logo{}
+.logo{
+    padding: 20px;
+    vertical-align:midle;
+}
 
-.container{
- 
+.container-generale{
+ background-color: darkgrey;
 }
 
 .list{}
